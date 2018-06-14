@@ -1,0 +1,50 @@
+.form__wrap {
+    width: 250px;
+}
+
+.form__wrap input {
+    display: inline-block;
+    width: 57%;
+    padding: 3px 8px;
+    margin-left: 10px;
+    font-size: 12px;
+    border: 1px solid #088A85;
+    outline: none
+}
+
+.form__wrap label{
+    display: flex;
+    width: 100%;
+}
+
+.form__wrap span {
+    font-size: 16px;
+}
+
+.form__wrap button {
+    display: block;
+    width: 100%;
+    height: 30px;
+    margin-top: 10px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background-color: #088A85;
+    color: white;
+    font-size: 14px;
+}
+.wrap__table {
+    margin-top: 25px;
+}
+.wrap__table tbody{
+    background-color: #088A85;
+}
+
+.wrap__table td {
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+}

@@ -1,0 +1,45 @@
+h3 {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.wraper {
+    width: auto;
+}
+
+.wrapper label {
+    display: block;
+    margin-top: 15px;
+}
+
+.wrapper input {
+    padding: 5px 7px;
+    margin-left: 10px;
+    width: 200px;
+    outline: none;
+}
+
+.wrapper button {
+    display: block;
+    width: 295px;
+    height: 30px;
+    margin-top: 10px;
+    font-size: 14px;
+    border: 1px solid rgb(12, 175, 224);
+    background: rgb(12, 175, 224);
+    outline: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.wrapper button:disabled {
+    cursor: none;
+    opacity: 0.5;
+}
+
+.result {
+    margin-left: 10px;
+    font-size: 20px;
+    color: rgb(12, 175, 224);
+}
